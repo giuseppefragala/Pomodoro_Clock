@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FreeCodeCamp: Build a Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container" id="title-container">
+  <p id="label-title">Work smarter, not harder</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <p id="label-break-length">BREAK LENGTH<p/>
+    </div> 
+    
+    <div class="col-6">
+      <p id="label-session-length">SESSION LENGTH<p/>    
+    </div>
+  </div>
+</div>
+
+
+<div class="container">  
+  <div class="row" id="values-main-row">    
+    <div class="col-6">
+      
+        <div class="row" id="values-row">
+          <div class="col-4">
+            <p id="break-min-sign">-<p/>
+          </div>
+
+          <div class="col-4">
+            <p id="break-value">5<p/>    
+          </div>
+          
+           <div class="col-4">
+            <p id="break-plus-sign">+<p/>    
+          </div>          
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="row" id="values-row">
+          <div class="col-4">
+            <p id="session-min-sign">-<p/>
+          </div>
+
+          <div class="col-4">
+            <p id="session-value">25<p/>    
+          </div>
+          
+           <div class="col-4">
+            <p id="session-plus-sign">+<p/>    
+          </div>          
+        </div>  
+    </div>
+  </div>
+</div>
+  
+<div class="container" id="container-button"><button class="btn btn-primary" id="reset-button">Reset</button></div>
+
+<div class="container" id="circle-container">
+  <div class="external" id="external-circle">
+    <div class="circle fill" data-fill="0" id="circle-fill">
+        <p class="circle-text-action">Session</p>    
+        <p class="circle-text-value">25</p>
+    </div>
+  </div>
+</div>
+<p class="text-center"><a style="color:white" id="link-pers" href="https://it.linkedin.com/in/giuseppefragala" target="_blank">by Giuseppe Fragalà</a></p>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
